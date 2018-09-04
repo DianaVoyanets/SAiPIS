@@ -1,0 +1,102 @@
+table {
+    width: 1000px;
+    height: 500px;
+    border-collapse: collapse;
+    background-color: rgb(169, 236, 198);
+}
+
+td, th {
+    padding: 3px; 
+    border: 7px solid black;
+}
+
+.head .col-1 h2 {
+    text-align: center;
+    color: green;
+}
+.col-3 {
+    height: 90px;
+}
+
+.col-3 h2 {
+    text-align: center;
+    color: green;
+}
+
+.col-4 h2 {
+    text-align: center;
+    color: green;
+}
+
+.head .col-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+}
+
+.head .col-2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+}
+
+.head .col-2 h3 {
+    text-align: center;
+    color: green;
+}
+
+.col-7 p {
+    width: 200px;
+    font-style: italic;
+    color:#143f0b;
+}
+
+.col-8 p {
+    width: 200px;
+    font-weight: bold;
+}
+
+.col-9 p {
+    width: 200px;
+    font-size: 16px;
+    color: rgb(202, 23, 23);
+}
+
+.col-10 p {
+    width: 200px;
+    text-decoration: underline;
+    color: rgb(10, 59, 29);
+}
+
+.col-11 p {
+    font-weight: bold;
+    font-style: italic;
+    color: #233521;
+}
+
+.col-5 h2 {
+    text-align: center;
+    color: green;
+}
+
+.col-5 ul {
+    list-style-type: none;
+}
+
+.col-5 ul li:before {
+    content: "– ";
+}
+
+.col-6 ul.roman  {
+    list-style-type: upper-roman;
+}
+
+.col-6 ul.alpha  {
+    list-style-type: upper-alpha;
+}
+
+.color {
+    background-color: bisque;
+}
