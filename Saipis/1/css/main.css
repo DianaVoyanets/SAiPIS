@@ -7,12 +7,12 @@ table {
 
 td, th {
     padding: 3px; 
-    border: 7px solid black;
+    border: 1px solid black;
 }
 
 .head .col-1 h2 {
     text-align: center;
-    color: green;
+    color: rgb(58, 10, 10);
 }
 .col-3 {
     height: 90px;
@@ -20,12 +20,12 @@ td, th {
 
 .col-3 h2 {
     text-align: center;
-    color: green;
+    color: rgb(58, 10, 10);;
 }
 
 .col-4 h2 {
     text-align: center;
-    color: green;
+    color: rgb(58, 10, 10);;
 }
 
 .head .col-1 img {
@@ -44,7 +44,7 @@ td, th {
 
 .head .col-2 h3 {
     text-align: center;
-    color: green;
+    color:rgb(58, 10, 10);
 }
 
 .col-7 p {
@@ -78,7 +78,7 @@ td, th {
 
 .col-5 h2 {
     text-align: center;
-    color: green;
+    color: rgb(58, 10, 10);;
 }
 
 .col-5 ul {

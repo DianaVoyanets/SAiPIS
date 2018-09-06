@@ -41,7 +41,7 @@ table {
 }
 
 .left {
-    background: url("../source/london-background.jpg");
+    background: url("../resource/london-background.jpg");
     background-repeat: no-repeat;
     background-size: 700px 600px;
     background-origin: padding-box;
@@ -51,6 +51,7 @@ table {
     column-count: 3;
     font-weight: bold;
     color: rgb(2, 6, 31);
+    z-index: 2;
 }
 
 .first-paragraph {

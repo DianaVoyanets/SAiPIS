@@ -1,0 +1,133 @@
+header {
+    height: 200px;
+    background-image: url("../3/resource/bg-top.gif");
+    position: relative;
+}
+
+.second_page {
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    top:50px;
+    left: 300px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+}
+
+.header_img {
+    margin: 50px 200px 0 200px;
+}
+
+main {
+    height: 400px;
+    position: relative;
+}
+
+.first {
+    position: absolute;
+    top: 70px;
+}
+
+.second {
+    position: absolute;
+    top: 220px;
+}
+
+h1,h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+}
+
+h1 {
+    color: rgb(6, 10, 53);
+}
+
+footer {
+    position: relative;
+    height: 240px;
+   background-color: rgb(181, 203, 231);
+}
+
+footer p {
+    text-align: center;
+    color:rgb(58, 111, 168);
+}
+
+footer img.first_lable {
+    position: absolute;
+    top: 120px;
+    margin-left: 600px;
+}
+
+footer img.second_lable {
+    position: absolute;
+    top: 120px;
+    margin-left: 690px;
+}
+
+.blink {
+    position: absolute;
+    top: 56px;
+    left: 30px;
+    animation: blink 1s linear infinite;
+  }
+  @-webkit-keyframes blink {
+    100% { color: rgba(34, 34, 34, 0); }
+  }
+  @keyframes blink {
+    100% { color: rgba(34, 34, 34, 0); }
+  }
+
+.first_diamond,.second_diamond,.third_diamond {
+    width: 50px;
+    height: 50px;
+    background: #17276d;
+    /* Rotate */
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
+/* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+
+.blick_second {
+    position: absolute;
+    top: 25px;
+    left: 65px;
+    background: #7a8ee9;
+    animation: blink 1s linear infinite;
+  }
+  @-webkit-keyframes blink {
+    100% { color: rgba(34, 34, 34, 0); }
+  }
+  @keyframes blink {
+    100% { color: rgba(34, 34, 34, 0); }
+  }
+
+
+.first_diamond {
+    position: absolute;
+    top:20px;
+    left: 100px;
+} 
+
+.second_diamond {
+    position: absolute;
+    top: 50px;
+    left: 150px; 
+}
+
+.third_diamond {
+    position: absolute;
+    top: 20px;
+    left: 199px
+}
