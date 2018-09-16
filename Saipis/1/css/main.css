@@ -14,13 +14,19 @@ td, th {
     text-align: center;
     color: rgb(58, 10, 10);
 }
+
 .col-3 {
     height: 90px;
 }
-
+.col-9 p {
+    text-align: right;
+}
 .col-3 h2 {
     text-align: center;
     color: rgb(58, 10, 10);;
+}
+.second-paragraph {
+    text-shadow: 1px 2px 3px red;
 }
 
 .col-4 h2 {
@@ -85,9 +91,6 @@ td, th {
     list-style-type: none;
 }
 
-.col-5 ul li:before {
-    content: "– ";
-}
 
 .col-6 ul.roman  {
     list-style-type: upper-roman;
