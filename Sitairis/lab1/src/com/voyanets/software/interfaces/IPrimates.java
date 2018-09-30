@@ -1,4 +1,5 @@
 package com.voyanets.software.interfaces;
 
-public interface IPrimates {
+public interface IPrimates extends IMammals {
+    void eatBananas();
 }
