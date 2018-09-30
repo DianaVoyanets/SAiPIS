@@ -1,5 +1,5 @@
 package com.voyanets.software.interfaces;
 
-public interface IInterface2 extends IInterface1 {
+public interface predatory extends IMammals {
     int sub(int a, int b);
 }

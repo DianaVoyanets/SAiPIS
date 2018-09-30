@@ -1,8 +1,8 @@
 package com.voyanets.software.classes;
 
-import com.voyanets.software.interfaces.IInterface2;
+import com.voyanets.software.interfaces.IPredatory;
 
-public class Class6 implements IInterface2 {
+public class Class6 implements IPredatory {
 
     @Override
     public int sub(int a, int b) {
