@@ -1,5 +1,6 @@
 package com.voyanets.software.interfaces;
 
-public interface predatory extends IMammals {
-    int sub(int a, int b);
+public interface IPredatory extends IMammals {
+    void eat();
+    void roar();
 }

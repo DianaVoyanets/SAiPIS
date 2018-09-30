@@ -2,16 +2,20 @@ package com.voyanets.software.classes;
 
 import com.voyanets.software.interfaces.IPredatory;
 
-public class Class6 implements IPredatory {
+public class Tiger implements IPredatory {
 
     @Override
-    public int sub(int a, int b) {
-        final int i = a - b;
-        return i;
+    public void eat() {
+        System.out.println("I can eat");
     }
 
     @Override
-    public int func1(int a, int b) {
-        return 0;
+    public void roar() {
+        System.out.println("I can roar");
+    }
+
+    @Override
+    public void proliferation() {
+        System.out.println("I can proliferation");
     }
 }

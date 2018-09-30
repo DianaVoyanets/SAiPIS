@@ -1,8 +1,29 @@
 package com.voyanets.software.classes;
 
-public class Class13 extends ADog {
+public class Fox extends ADog {
+
     @Override
-    public int func1(int a, int b) {
-        return 0;
+    void barc() {
+        System.out.println("I can barc");
+    }
+
+    @Override
+    void run() {
+        System.out.println("I can run");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("I can eat");
+    }
+
+    @Override
+    public void roar() {
+        System.out.println("I can roar");
+    }
+
+    @Override
+    public void proliferation() {
+        System.out.println("I can proliferation");
     }
 }

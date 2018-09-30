@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab5</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">Cinema <span>World</span></a></h1>
+    </header>
+    <section>
+        <nav>
+          <ul>
+				<li><a href="#"><img src="images/icon1.gif" alt="" />Home</a></li>
+				<li><a href="#"><img src="images/icon2.gif" alt="" />About</a></li>
+				<li><a href="#"><img src="images/icon3.gif" alt="" />Data from form</a></li>
+			  </ul>
+        </nav>
+      <article>
+          <img class="banner_bg" src="images/banner-bg.gif">
+          <img class="banner_img" src="images/banner-img.png">
+          <h2 class="banner_bg_text">We are breaking<br><span>All limitation</span></h2>
+          <p>Cinema World Site is a free web template created by TemplateMonster.com team. This website template is optimized for 1024X768 screen resolution. It is also XHTML & CSS valid.</p>
+          <img class="textarea-bg" src="images/textarea-bg.gif">
+          <h2><b>Welcome to Cinema <span>World</span></b></h2>
+      </article>
+      <aside>
+          <form class="content__form contact-form" id="contact-form">
+                <div class="contact-form__input-group">
+                  <br><label class="contact-form__label" for="subject"><b>Выберите формат текста:</b></label><br><br>
+                  <select class="contact-form__input contact-form__input--select" id="text_style_selector" name="subject">
+                        <option selected disabled value="">Выберите</option>
+                        <option>font-size=14px;color:red;</option>
+                        <option>font-size=15px;color:blue;</option>
+                        <option>font-size=16px;color:black;</option>
+                  </select>
+                </div>
+                <div class="contact-form__input-group">
+                        <br><label class="contact-form__label" for="subject"><b>Как часто Вы ходите в кино?</b></label><br><br>
+                        <select class="contact-form__input contact-form__input--select" id="word_selector" name="subject">
+                                <option selected disabled value="">Выберите</option>
+                                <option>1 раз в неделю</option>
+                                <option>1 раз в месяц</option>
+                                <option>1 раз в год</option>
+                                <option>менее часто</option>
+                          </select>
+                </div>
+                <div class="contact-form__input-group">
+                        <p class="contact-form__label--radio-group"><b>Выберите место для нового текста</b></p>
+                        <input class="contact-form__input contact-form__input--radio" id="before_radio_button",name="salutation" type="radio" value="Before"/>
+                        <label class="contact-form__label contact-form__label--radio" for="salutation-shop">Before text input</label><br>
+                        <input class="contact-form__input contact-form__input--radio" id="after_radio_button" name="salutation" type="radio" value="After"/>
+                        <label class="contact-form__label contact-form__label--radio" for="salutation-internet">After text input</label>
+                </div>
+                <div class="contact-form__input-group">
+                        <br><label class="contact-form__label" for="name"><b>Текстовое поле</b></label>
+                        <input class="contact-form__input contact-form__input--text" id="text_input" type="text"/>
+                </div>
+              </form>
+              <button class="clear_all_button" onClick = "onclickBefore()"><b>Add word</b></button>
+              <button class="clear_all_button" onClick = "addToSelect()"><b>Add to select</b></button>
+      </aside>
+    </section>
+    <footer>
+        <p>contacts: www.templates.by<br>
+           tel: +(375) 123 45 67
+        </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -2,6 +2,7 @@ package com.voyanets.software.classes;
 
 import com.voyanets.software.interfaces.IPredatory;
 
-public abstract class dog implements IPredatory {
-
+abstract class ADog implements IPredatory {
+    abstract void barc();
+    abstract void run();
 }

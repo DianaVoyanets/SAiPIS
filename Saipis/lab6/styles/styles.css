@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url("../resourses/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    font-size:18px;
+
+}
+article, section{
+    margin:20px 30px;
+    padding:10px 10px;
+}
+
+li.a{
+    margin:0 25px;
+}
+
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 24px;
+}
+
+button {
+    background: rgba(99, 19, 41, 0.62);
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    color: #fff;
+    font: bold 24px/24px Helvetica, Arial, Sans-Serif;
+    margin: 0 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+button:hover {
+    background: rgb(99, 19, 41);
+    text-decoration: none;
+}
